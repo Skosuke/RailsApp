@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  color: black;
+}
+
+.content-vision {
+  width: 500px;
+  padding: 200 90px;
+  margin: 0 auto;
+  color: black;
+}
+
+.top-wrapper {
+  padding: 180px 0 270px 0;
+  background-image: url("P1140591.JPG");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.vision-wrapper {
+  padding: 100px 0 100px 0;
+  height: 800px;
+  color: black;
+  text-align: center;
+}
+
+.vision-wrapper p {
+  opacity: 0.6;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: left;
+}
+
+.profile-wrapper {
+  padding: 50px 0 100px 0;
+  color: white;
+  text-align: center;
+}
+
+.profile-wrapper p {
+  opacity: 0.5;
+  font-size: 15px;
+  letter-spacing: 5px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: left;
+}
+
+.profile-wrapper h1 {
+  opacity: 0.8;
+  font-size: 15px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: left;
+  border-bottom: 3px solid #dee7ec;
+}
+
+.profile-pict00 {
+  background-image: url("P1140589.JPG");
+  background-size: 100%;
+  margin: 0px 350px;
+  height: 330px;
+  width: 600px;
+  float: left;
+}
+
+.profile-list {
+  float: left;
+}
+
+.contact-wrapper {
+  padding: 100px 0 100px 0;
+  color: black;
+  text-align: center;
+}
+
+.vision-pict00 {
+  background-image: url("P1140597.JPG");
+  background-size: 100%;
+  margin: 0px 350px;
+  height: 330px;
+  width: 600px;
+}
+
+.contact-form {
+
+}
+
+/* inputとtextareaのCSSを指定してください */
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+textarea {
+  height: 300px;
+}
+
+.contact-submit {
+  color: black;
+  background-color: #dee7ec;
+}
+
+header {
+  height: 30px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-top {
+  float: left;
+  height: 30px;
+}
+
+.header-top a {
+  color: white;
+  float: left;
+  font-size: 13px;
+  padding: 5px 30px;
+  transition: all 0.5s;
+}
+
+.header-top a:hover {
+  background-color: red;
+  color: rgba(34, 49, 52, 0.9);
+}
+
+.header-menus {
+  float: right;
+  height: 30px;
+}
+
+.header-menus a {
+  color: white;
+  float: left;
+  font-size: 13px;
+  padding: 5px 30px;
+  transition: all 0.5s;
+}
+
+.header-menus a:hover {
+  background-color: red;
+  color: rgba(34, 49, 52, 0.9);
+}
+
+span {
+  color: red;
+}
